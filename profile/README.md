@@ -9,6 +9,9 @@
 
 ![Alt text](https://github.com/Traverse2023/.github/blob/d2893b42b710dc1502dfd6aa7d46c5a24e19a65e/profile/Traverse%20Architecture-2.png)
 
+# Web App Link 👋
+
+[Visit Traverse online!](http://traverse.us-east-1.elasticbeanstalk.com)
 
 # Local Setup Instructions 👋
 
