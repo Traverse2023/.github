@@ -21,6 +21,9 @@
 3. git clone each repo.
 4. For nodejs repos, use node version 16+/
 5. Run npm install on nodejs projects.
+6. Add .env file to traverse-ui
+   - REACT_APP_BACKEND_URL=http://localhost:8000/
+   - REACT_APP_STORAGE_SERVICE_URL=http://localhost:8080/
 
 ## Database Installation
 
@@ -37,6 +40,8 @@
    - NEO4J_URI=[URI listed from client]
    - NEO4J_USER=[User listed from client]
    - NEO4J_PASSWORD=[Password you set]
+   - STORAGE_SERVICE_URL=http://localhost:8080
+   - JWT_WEB_TOKEN=[token]
 8. If set up correctly, you will be able to tun main_service (check additional steps for main_service in the repo)
   
 ### mongoDB
