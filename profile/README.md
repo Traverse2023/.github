@@ -41,7 +41,7 @@
    - NEO4J_USER=[User listed from client]
    - NEO4J_PASSWORD=[Password you set]
    - STORAGE_SERVICE_URL=http://localhost:8080
-   - JWT_WEB_TOKEN=[token]
+   - JWT_WEB_TOKEN=local_dev_token
 8. If set up correctly, you will be able to tun main_service (check additional steps for main_service in the repo)
   
 ### mongoDB
