@@ -24,6 +24,7 @@
 6. Add .env file to traverse-ui
    - REACT_APP_BACKEND_URL=http://localhost:8000/
    - REACT_APP_STORAGE_SERVICE_URL=http://localhost:8080/
+   - JWT_WEB_TOKEN=local_dev_token
 
 ## Database Installation
 
