@@ -15,16 +15,42 @@
 
 # Local Setup Instructions 👋
 
-1. Create directory named "Traverse" in local machine.
-2. Cd into the directory.
+## Clone + Setup Repos
+1. Create a directory named "Traverse" somewhere in your local machine.
+2. cd into the directory.
 3. git clone each repo.
 4. For nodejs repos, use node version 16+/
 5. Run npm install on nodejs projects.
-6. Download neo4j desktop client: https://neo4j.com/deployment-center/#desktop
+6. Add .env file to traverse-ui
+   - REACT_APP_BACKEND_URL=http://localhost:8000/
+   - REACT_APP_STORAGE_SERVICE_URL=http://localhost:8080/
+   - JWT_WEB_TOKEN=local_dev_token
+
+## Database Installation
+
+### neo4j
+1. Download neo4j desktop client: https://neo4j.com/deployment-center/#desktop
     - May have to scroll down to desktop section.
-    - Install version 1.5.8 
-7. Create env file for main-service.
-   - NEO4J_URI=...
-   - NEO4J_USER=...
-   - NEO4J_PASSWORD=...
-8. For storage-service, mvn install, and set java jdk, and run.
+    - Install version 1.5.8
+2. When you download, the website gives you a key that you will have to enter into the desktop client
+3. In the client, create a new project called "Traverse"
+4. In this project, create a new database called "Traverse"
+5. You will be prompted to enter a password.
+6. Start the DB and click "Open"
+7. Create a .env file in the main-service directory.
+   - NEO4J_URI=[URI listed from client]
+   - NEO4J_USER=[User listed from client]
+   - NEO4J_PASSWORD=[Password you set]
+   - STORAGE_SERVICE_URL=http://localhost:8080
+   - JWT_WEB_TOKEN=local_dev_token
+8. If set up correctly, you will be able to tun main_service (check additional steps for main_service in the repo)
+  
+### mongoDB
+1. For storage-service, mvn install, and set java jdk, and run.
+    - Using IntelliJ is recommended: https://www.jetbrains.com/idea/download/ 
+2. Install mongoDB for your machine: https://www.mongodb.com/docs/manual/administration/install-community/
+3. Install mongoDB compass: https://www.mongodb.com/try/download/compass
+4. Start the DB on your machine
+5. To verify, start main_service, traverse_ui, storage_service
+    - Use traverse_ui to log in and go to Groups > Control Center > Create group
+    - You should be able to create a group and chat, and the chat should update when you submit
