@@ -34,9 +34,9 @@
 5. Run all containers locally using docker
    
   ```
-   docker compose up
+  docker compose up
   ```
-  Or alternatively for hot reload/restart enabled for all services within containers:
+   For hot reload/restart enabled:
 
   ```
   docker compose watch
