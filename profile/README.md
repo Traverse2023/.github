@@ -11,7 +11,8 @@
 
 # Local Setup Instructions 👋
 
-## For a consistent containerized local deployment:
+
+### For a containerized local deployment:
 
 1. [Download docker](https://www.docker.com/products/docker-desktop/)
    
@@ -35,3 +36,10 @@
   ```
    docker compose up
   ```
+  Or alternatively for hot reload/restart enabled for all services within containers:
+
+  ```
+  docker compose watch
+  ```
+
+  
