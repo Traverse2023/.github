@@ -24,13 +24,14 @@
   ```
 
 4. Run to pull current main branches for submodules
+   
   ```
   git submodule foreach git pull origin main && git submodule foreach git checkout main
   ```
 
  
 5. Run all containers locally using docker
-
-   ```
+   
+  ```
    docker compose up
-   ```
+  ```
