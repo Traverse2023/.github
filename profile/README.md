@@ -9,6 +9,10 @@
 
 ![Alt text](https://github.com/Traverse2023/.github/blob/5e93fb68b6a7059f8aa3d752d13f69d9685f7635/profile/Traverse%20Architecturev4.png)
 
+# Deployment Process
+
+![Alt text](https://github.com/Traverse2023/.github/blob/8a81df02b2cc5e4c2ef0f43aea2b949547c14ec8/profile/CICD.png)
+
 # Local Setup Instructions 👋
 
 
