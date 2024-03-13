@@ -1,6 +1,6 @@
 # Motivation 👋
 
-  There are several apps like Youtube, Discord, and Reddit, Marketplace where we are essentially communicating with millions of people. With Traverse, the idea is to combine these apps into one large social media platform. It's to learn approaches when developing huge apps like this and potentially use it ourselves with others when it is ready.
+  We want to make a discord-multiplayer-leetcode.
 
 
 # Discord Clone Software Architecture Stack 👋
