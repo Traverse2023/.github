@@ -1,9 +1,14 @@
 # Motivation 👋
 
-  We want to make a discord-multiplayer-leetcode.
+  We want to make a platform where users can solve algorithmic coding problems together in a multiplayer fashion. The first phase of the project would start off with the communication platform, which we are internally calling CodeChat or HackerTalk. HackerTalk will allow users to message, voice, video chat, send snippets of code, share screen, and other functionalities.
+The second phase is the actual coding platform called DevDuel. DevDuel would allow users to compete against each other with algorithmic-style progamming questions.
+
+The most common use case would be to create an account, add friends, create a group, then start a DevDuel with your friends. Based on who finishes first/has most efficient solution, there will be a leaderboard at the end of the session. 
+
+We also want to expand to other use cases. If you are a CS student, this has to be the place to be to talk, live, and breath code.
 
 
-# Discord Clone Software Architecture Stack 👋
+# HackerTalk Software Architecture Stack 👋
 
   Our Front End is built with React. The Back End currently consists of 2 microservices. The Main Service, is currently the first service the Front End contacts. It communicates with a Neo4j graph database. It handles users, their friendships, and their groups. For heavier storage, like the individual channels within the groups, and their messages are stored in a MongoDB noSQL database. Live messaging is done through the socket.io framework, which allows the usage of web sockets with lightweight code. 
 
