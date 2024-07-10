@@ -12,7 +12,7 @@ We also want to expand to other use cases. If you are a CS student, this has to 
 
   Our Front End is built with React. The Back End currently consists of 2 microservices. The Main Service, is currently the first service the Front End contacts. It communicates with a Neo4j graph database. It handles users, their friendships, and their groups. For heavier storage, like the individual channels within the groups, and their messages are stored in a MongoDB noSQL database. Live messaging is done through the socket.io framework, which allows the usage of web sockets with lightweight code. 
 
-![Alt text](https://github.com/Traverse2023/.github/blob/5e93fb68b6a7059f8aa3d752d13f69d9685f7635/profile/Traverse%20Architecture-5.png)
+![Alt text](https://github.com/Traverse2023/.github/blob/2fdfe67e887555c7bfd894cb823c14d809da2f98/profile/Traverse%20Architecture-5.png)
 
 # Deployment Process
 
