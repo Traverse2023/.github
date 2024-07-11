@@ -1,9 +1,9 @@
 # Motivation 👋
 
-  We want to make a platform where users can solve algorithmic coding problems together in a multiplayer fashion. The first phase of the project would start off with the communication platform, which we are internally calling CodeChat or HackerTalk. HackerTalk will allow users to message, voice, video chat, send snippets of code, share screen, and other functionalities.
-The second phase is the actual coding platform called DevDuel. DevDuel would allow users to compete against each other with algorithmic-style progamming questions.
+  We want to make a platform where users can solve algorithmic coding problems together in a multiplayer fashion. The first phase of the project would start off with the communication platform, which we are internally calling HackerTalk. HackerTalk will allow users to message, voice, video chat, send snippets of code, share screen, and other functionalities.
+The second phase is the actual coding platform called CodeHive. CodeHive would allow users to compete against each other with algorithmic-style progamming questions.
 
-The most common use case would be to create an account, add friends, create a group, then start a DevDuel with your friends. Based on who finishes first/has most efficient solution, there will be a leaderboard at the end of the session. 
+The most common use case would be to create an account, add friends, create a group, then start a CodeHive with your friends. Based on who finishes first/has most efficient solution, there will be a leaderboard at the end of the session. 
 
 We also want to expand to other use cases. If you are a CS student, this has to be the place to be to talk, live, and breath code.
 
